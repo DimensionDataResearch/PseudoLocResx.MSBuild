@@ -1,5 +1,4 @@
-ResxToJson.MSBuild
+PseudoLocResx.MSBuild
 ==================
 
-Builds Resx files into Json files.
-The json file can be packaged up using Bundles and can be packaged with your other js files.
+Builds Resx files into Pseudo-loc resx files.
