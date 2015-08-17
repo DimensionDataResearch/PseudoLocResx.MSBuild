@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>PseudoLocResx.MSBuild</id>
+        <version>1.0.0</version>
+        <title>PseudoLocResx.MSBuild</title>
+        <authors>Manish Kumar</authors>
+        <owners>Manish Kumar</owners>    
+        <projectUrl>https://bitbucket.org/Manishkp/resxtojson.msbuild</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Converts the resx files in the project to pseudo-loc resx file. lcid and lang name, eg : qps-ploc  and 0501
+		https://msdn.microsoft.com/en-us/library/windows/desktop/dd319106(v=vs.85).aspx</description>
+        <summary>Converts the resx files in the project to pseudo-loc resx file. lcid and lang name, eg : qps-ploc  and 0501.</summary>     
+        <tags>resx loc</tags>
+    </metadata>
+      <files>
+        <file src="build\PseudoLocResx.MSBuild.Targets" target="build\PseudoLocResx.MSBuild.Targets" />
+        <file src="tools\PseudoLocResx.MSBuild.dll" target="tools\PseudoLocResx.MSBuild.dll" />    
+        <file src="license.txt" target="license.txt" />
+    </files>
+</package>

@@ -1,0 +1,6 @@
+Testlib/obj/
+Testlib/bin/
+source/packages/
+source/PseudoLocResx.MSBuild/obj/
+source/Testlib/obj/
+packages/
